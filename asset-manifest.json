@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-v3/static/css/main.de1ca050.chunk.css",
+    "main.js": "/portfolio-v3/static/js/main.5b2a7c02.chunk.js",
+    "main.js.map": "/portfolio-v3/static/js/main.5b2a7c02.chunk.js.map",
+    "runtime-main.js": "/portfolio-v3/static/js/runtime-main.c936e449.js",
+    "runtime-main.js.map": "/portfolio-v3/static/js/runtime-main.c936e449.js.map",
+    "static/css/2.36020323.chunk.css": "/portfolio-v3/static/css/2.36020323.chunk.css",
+    "static/js/2.3a0a00b8.chunk.js": "/portfolio-v3/static/js/2.3a0a00b8.chunk.js",
+    "static/js/2.3a0a00b8.chunk.js.map": "/portfolio-v3/static/js/2.3a0a00b8.chunk.js.map",
+    "index.html": "/portfolio-v3/index.html",
+    "precache-manifest.8e7f8f25e184fc415c9a4be684d07ef7.js": "/portfolio-v3/precache-manifest.8e7f8f25e184fc415c9a4be684d07ef7.js",
+    "service-worker.js": "/portfolio-v3/service-worker.js",
+    "static/css/2.36020323.chunk.css.map": "/portfolio-v3/static/css/2.36020323.chunk.css.map",
+    "static/css/main.de1ca050.chunk.css.map": "/portfolio-v3/static/css/main.de1ca050.chunk.css.map",
+    "static/js/2.3a0a00b8.chunk.js.LICENSE.txt": "/portfolio-v3/static/js/2.3a0a00b8.chunk.js.LICENSE.txt",
+    "static/media/Contact.png": "/portfolio-v3/static/media/Contact.23787187.png",
+    "static/media/Github.png": "/portfolio-v3/static/media/Github.d39c0500.png",
+    "static/media/LL.png": "/portfolio-v3/static/media/LL.9ba17c49.png",
+    "static/media/Tech.png": "/portfolio-v3/static/media/Tech.5072841b.png",
+    "static/media/background1.jpg": "/portfolio-v3/static/media/background1.31d50da5.jpg",
+    "static/media/background2.jpg": "/portfolio-v3/static/media/background2.786f69d6.jpg",
+    "static/media/background3.jpg": "/portfolio-v3/static/media/background3.6d6e0bab.jpg",
+    "static/media/me.jpg": "/portfolio-v3/static/media/me.d98e83f3.jpg",
+    "static/media/me.jpeg": "/portfolio-v3/static/media/me.d9df28d6.jpeg",
+    "static/media/me2.jpg": "/portfolio-v3/static/media/me2.1de8072a.jpg",
+    "static/media/music.jpg": "/portfolio-v3/static/media/music.42e01941.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c936e449.js",
+    "static/css/2.36020323.chunk.css",
+    "static/js/2.3a0a00b8.chunk.js",
+    "static/css/main.de1ca050.chunk.css",
+    "static/js/main.5b2a7c02.chunk.js"
+  ]
+}
