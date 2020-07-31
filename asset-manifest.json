@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.2363ddd5.chunk.css",
-    "main.js": "/portfolio-v3/static/js/main.e3ebc453.chunk.js",
-    "main.js.map": "/portfolio-v3/static/js/main.e3ebc453.chunk.js.map",
+    "main.js": "/portfolio-v3/static/js/main.40216c50.chunk.js",
+    "main.js.map": "/portfolio-v3/static/js/main.40216c50.chunk.js.map",
     "runtime-main.js": "/portfolio-v3/static/js/runtime-main.c936e449.js",
     "runtime-main.js.map": "/portfolio-v3/static/js/runtime-main.c936e449.js.map",
     "static/css/2.36020323.chunk.css": "/portfolio-v3/static/css/2.36020323.chunk.css",
     "static/js/2.96bf8dd9.chunk.js": "/portfolio-v3/static/js/2.96bf8dd9.chunk.js",
     "static/js/2.96bf8dd9.chunk.js.map": "/portfolio-v3/static/js/2.96bf8dd9.chunk.js.map",
     "index.html": "/portfolio-v3/index.html",
-    "precache-manifest.db9eab9cb418a995f242fe6970512341.js": "/portfolio-v3/precache-manifest.db9eab9cb418a995f242fe6970512341.js",
+    "precache-manifest.d9cad24544ba90762711213cb4906de1.js": "/portfolio-v3/precache-manifest.d9cad24544ba90762711213cb4906de1.js",
     "service-worker.js": "/portfolio-v3/service-worker.js",
     "static/css/2.36020323.chunk.css.map": "/portfolio-v3/static/css/2.36020323.chunk.css.map",
     "static/css/main.2363ddd5.chunk.css.map": "/portfolio-v3/static/css/main.2363ddd5.chunk.css.map",
@@ -18,7 +18,7 @@
     "static/media/Github.png": "/portfolio-v3/static/media/Github.d39c0500.png",
     "static/media/LL.png": "/portfolio-v3/static/media/LL.9ba17c49.png",
     "static/media/Tech.png": "/portfolio-v3/static/media/Tech.5072841b.png",
-    "static/media/Whatsapp.png": "/portfolio-v3/static/media/Whatsapp.eac49ce5.png",
+    "static/media/Whatsapp.png": "/portfolio-v3/static/media/Whatsapp.4511e5e4.png",
     "static/media/background1.jpg": "/portfolio-v3/static/media/background1.31d50da5.jpg",
     "static/media/background2.jpg": "/portfolio-v3/static/media/background2.786f69d6.jpg",
     "static/media/background3.jpg": "/portfolio-v3/static/media/background3.6d6e0bab.jpg",
@@ -33,6 +33,6 @@
     "static/css/2.36020323.chunk.css",
     "static/js/2.96bf8dd9.chunk.js",
     "static/css/main.2363ddd5.chunk.css",
-    "static/js/main.e3ebc453.chunk.js"
+    "static/js/main.40216c50.chunk.js"
   ]
 }
