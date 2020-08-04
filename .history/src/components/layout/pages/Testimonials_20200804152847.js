@@ -46,9 +46,9 @@ export const Testimonials = () => {
       </div>
       <h1 className="testimonial_title">Testimonials</h1>
       {testimonials.map((testimonials, idx) => (
-        <div key={idx}>
+        <div key={idx} className="center">
           <div class="row">
-            <div class="col s12 ">
+            <div class="col s6">
               {" "}
               <div class="card-panel white">
                 <h5 class="black-text move_the_name">{testimonials.name}</h5>

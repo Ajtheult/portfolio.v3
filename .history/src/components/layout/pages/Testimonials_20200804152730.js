@@ -48,7 +48,7 @@ export const Testimonials = () => {
       {testimonials.map((testimonials, idx) => (
         <div key={idx}>
           <div class="row">
-            <div class="col s12 ">
+            <div class="col s6">
               {" "}
               <div class="card-panel white">
                 <h5 class="black-text move_the_name">{testimonials.name}</h5>
