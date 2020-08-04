@@ -14,9 +14,7 @@ export const MyWork = () => {
       </div>
       <div className="container  ">
         <br />
-        <br />
-        <br />
-        <h5>Navigate with these buttons</h5>
+        <h6 className="">Navigate with these buttons</h6>
         <a
           href="#html"
           className="btn-floating btn-large waves-effect waves-light black button_margin"
@@ -55,7 +53,7 @@ export const MyWork = () => {
         HTML5/CSS3
       </h4>
       <div className="row">
-        <div className="col s12">
+        <div className="col s6">
           <div className="card">
             <div className="card-image">
               <img src={LL} alt="img" />
@@ -86,7 +84,7 @@ export const MyWork = () => {
         React
       </h4>
       <div className="row">
-        <div className="col s12">
+        <div className="col s6 right">
           <div className="card">
             <div className="card-image">
               <img src={Github} alt="img" />
@@ -112,7 +110,7 @@ export const MyWork = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s12">
+        <div className="col s6">
           <div className="card">
             <div className="card-image">
               <img src={Contact} alt=" img" />
@@ -139,7 +137,7 @@ export const MyWork = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s12">
+        <div className="col s6 right">
           <div className="card">
             <div className="card-image">
               <img src={Tech} alt="img" />
@@ -166,7 +164,7 @@ export const MyWork = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s12">
+        <div className="col s6 left">
           <div className="card">
             <div className="card-image">
               <img src={Whatsapp} alt="img" />

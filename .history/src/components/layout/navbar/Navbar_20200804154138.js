@@ -13,11 +13,15 @@ export class Navbar extends Component {
       var instances = M.Sidenav.init(elems, {});
     });
   }
+  hideToggle() {
+    let selectorId = document.querySelector(".mdl-layout");
+    selectorId.MaterialLayout.toggleDrawer();
+  }
 
   render() {
     return (
       <div>
-        <nav className="navbar">
+        <nav>
           <div className="nav-wrapper colour">
             <a
               href="#home"
@@ -29,7 +33,7 @@ export class Navbar extends Component {
           </div>
         </nav>
 
-        <ul id="slide-out" className="sidenav sidenav-close">
+        <ul id="slide-out" className="sidenav">
           <li>
             <div className="user-view">
               <div className="background">
@@ -46,20 +50,20 @@ export class Navbar extends Component {
             </div>
             {/* Change font so that the name can be better read */}
           </li>
-          <Link to="/portfolio-v3">
+          <Link to="/portfolio-v3" onClick={() => this.hideToggle()}>
             <br />
             <li className="colour_of_nav">Home</li>
           </Link>{" "}
           <br />
-          <Link to="/skills">
+          <Link to="/skills" onClick={() => this.hideToggle()}>
             <li className="colour_of_nav">Skills</li>
           </Link>
           <br />
-          <Link to="/mywork">
+          <Link to="/mywork" onClick={() => this.hideToggle()}>
             <li className="colour_of_nav">Work</li>
           </Link>
           <br />
-          <Link to="/testimonials">
+          <Link to="/testimonials" onClick={() => this.hideToggle()}>
             <li className="colour_of_nav">Testimonials</li>
           </Link>
         </ul>

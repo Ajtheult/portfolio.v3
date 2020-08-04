@@ -17,7 +17,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar">
+        <nav>
           <div className="nav-wrapper colour">
             <a
               href="#home"
@@ -29,7 +29,7 @@ export class Navbar extends Component {
           </div>
         </nav>
 
-        <ul id="slide-out" className="sidenav sidenav-close">
+        <ul id="slide-out" className="sidenav">
           <li>
             <div className="user-view">
               <div className="background">

@@ -13,15 +13,20 @@ export class Navbar extends Component {
       var instances = M.Sidenav.init(elems, {});
     });
   }
+  hideToggle() {
+    let selectorId = document.querySelector(".mdl-layout");
+    selectorId.MaterialLayout.toggleDrawer();
+  }
 
   render() {
     return (
       <div>
-        <nav className="navbar">
+        <nav>
           <div className="nav-wrapper colour">
             <a
               href="#home"
               data-target="slide-out"
+              onClick={() => this.hideToggle()}
               className="sidenav-trigger show-on-large"
             >
               <i className="material-icons">menu</i>
@@ -29,7 +34,7 @@ export class Navbar extends Component {
           </div>
         </nav>
 
-        <ul id="slide-out" className="sidenav sidenav-close">
+        <ul id="slide-out" className="sidenav">
           <li>
             <div className="user-view">
               <div className="background">

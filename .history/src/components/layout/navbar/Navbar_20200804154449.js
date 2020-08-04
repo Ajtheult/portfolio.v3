@@ -17,7 +17,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar">
+        <nav>
           <div className="nav-wrapper colour">
             <a
               href="#home"
