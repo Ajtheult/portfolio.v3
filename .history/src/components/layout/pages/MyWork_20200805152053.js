@@ -109,6 +109,14 @@ export const MyWork = () => {
               >
                 Github
               </a>
+              <a
+                href="https://serene-sammet-db2a49.netlify.app/"
+                className="waves-effect waves-light btn black move_github_button"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Netlify
+              </a>
             </div>
           </div>
         </div>
@@ -189,14 +197,6 @@ export const MyWork = () => {
                 target="_blank"
               >
                 Github
-              </a>{" "}
-              <a
-                href="https://serene-sammet-db2a49.netlify.app/"
-                className="waves-effect waves-light btn black"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Netlify
               </a>
             </div>
           </div>

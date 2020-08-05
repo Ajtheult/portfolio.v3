@@ -189,10 +189,10 @@ export const MyWork = () => {
                 target="_blank"
               >
                 Github
-              </a>{" "}
+              </a>
               <a
                 href="https://serene-sammet-db2a49.netlify.app/"
-                className="waves-effect waves-light btn black"
+                className="waves-effect waves-light btn black move_github_button"
                 rel="noopener noreferrer"
                 target="_blank"
               >
