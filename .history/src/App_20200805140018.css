@@ -197,7 +197,7 @@ div.admin-bg {
 
 .style_for_landingpage {
   margin-left: 15.5%;
-  margin-top: 10%;
+  margin-top: 6%;
   position: absolute;
   padding: 50px;
   width: 70%;
@@ -243,7 +243,7 @@ div.admin-bg {
 
 @keyframes html {
   to {
-    width: 75%;
+    width: 81%;
   }
 }
 
@@ -253,7 +253,7 @@ div.admin-bg {
 
 @keyframes css {
   to {
-    width: 58%;
+    width: 64%;
   }
 }
 
@@ -293,7 +293,7 @@ div.admin-bg {
 
 @keyframes react {
   to {
-    width: 50%;
+    width: 63%;
   }
 }
 
@@ -339,5 +339,5 @@ div.admin-bg {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: -1;
 }

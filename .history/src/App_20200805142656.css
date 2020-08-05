@@ -341,3 +341,12 @@ div.admin-bg {
   width: 100%;
   z-index: 2;
 }
+
+.whatsapp {
+  width: 300px;
+  height: 700px;
+}
+
+.decrease_card_width {
+  width: 600px;
+}

@@ -96,8 +96,8 @@ export const MyWork = () => {
               <p className="black_text my_work_desc">
                 This is an application to search for someone's github account
                 then display their account details and their work. <br /> It
-                does not function as expected. I am working on debugging the
-                problem.
+                does not function as expected. I am working on trying to debug
+                the problem.
               </p>
             </div>
             <div className="link-size">
@@ -171,7 +171,7 @@ export const MyWork = () => {
         <div className="col s12">
           <div className="card">
             <div className="card-image">
-              <img src={Whatsapp} alt="img" />
+              <img src={Whatsapp} alt="img" className="whatsapp" />
               <span className=" my_work_title">Whatsapp recreation</span>
             </div>
             <div className="card-content">

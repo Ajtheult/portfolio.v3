@@ -94,9 +94,9 @@ export const MyWork = () => {
             </div>
             <div className="card-content">
               <p className="black_text my_work_desc">
-                This is an application to search for someone's github account
-                then display their account details and their work. <br /> It
-                does not function as expected. I am working on debugging the
+                This is an appication to search for someone's github account
+                then display their account details and their work. It does not
+                function as expected. I am working on trying to debug the
                 problem.
               </p>
             </div>
