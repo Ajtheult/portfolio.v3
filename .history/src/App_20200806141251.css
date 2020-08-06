@@ -323,7 +323,8 @@ div.admin-bg {
 }
 
 .decrease_container_size {
-  width: 70%;
+  width: 60%;
+  box-shadow: 10px 10px;
 }
 .size_of_email {
   font-size: 30px;

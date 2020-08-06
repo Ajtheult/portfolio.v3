@@ -40,15 +40,15 @@ export const Testimonials = () => {
     },
   ]);
   return (
-    <div className="container">
+    <div className="container decrease_container_size">
       <div className="bg-color">
         <img src={background2} className="bg" alt="bg" />
       </div>
       <h1 className="testimonial_title">Testimonials</h1>
       {testimonials.map((testimonials, idx) => (
         <div key={idx}>
-          <div class="row decrease_container_size">
-            <div class="col s12  ">
+          <div class="row">
+            <div class="col s12 ">
               {" "}
               <div class="card-panel white">
                 <h5 class="black-text move_the_name">{testimonials.name}</h5>

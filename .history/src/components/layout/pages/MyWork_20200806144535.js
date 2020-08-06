@@ -229,7 +229,7 @@ export const MyWork = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Download link
+                Github
               </a>{" "}
             </div>
           </div>

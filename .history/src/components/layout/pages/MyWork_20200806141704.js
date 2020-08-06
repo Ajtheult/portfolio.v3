@@ -224,12 +224,12 @@ export const MyWork = () => {
             </div>
             <div className="link-size">
               <a
-                href="https://github.com/Ajtheult/Number-Guessing-Game/raw/master/mini_project.exe"
+                href="https://github.com/Ajtheult/Number-Guessing-Game.git"
                 className="waves-effect waves-light btn black move_github_button"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Download link
+                Github
               </a>{" "}
             </div>
           </div>

@@ -44,7 +44,7 @@ export const MyWork = () => {
       </div>
       <br />
       <a
-        className="waves-effect waves-red btn black"
+        class="waves-effect waves-light btn black"
         href="https://pure-basin-79312.herokuapp.com/"
         rel="noopener noreferrer"
         target="_blank"
@@ -56,7 +56,7 @@ export const MyWork = () => {
       </h4>
       <div className="row">
         <div className="col s12">
-          <div className="card ">
+          <div className="card">
             <div className="card-image">
               <img src={LL} alt="img" />
               <span className=" my_work_title">
@@ -202,9 +202,6 @@ export const MyWork = () => {
           </div>
         </div>
       </div>
-      <h4 id="python" className="work_title">
-        Python
-      </h4>
       <div className="row">
         <div className="col s12">
           <div className="card">
@@ -213,24 +210,32 @@ export const MyWork = () => {
                 src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
                 alt="img"
               />
-              <span className=" my_work_title">Number Guessing Game</span>
+              <span className=" my_work_title">Whatsapp recreation</span>
             </div>
             <div className="card-content">
               <p className="black_text my_work_desc">
-                This is a number guessing game that will determine how many
-                numbers you got right and gives you a cash prize according to
-                that number.
+                I attempted to recreate Whatsapp with the knowledge I have
+                acquired thus far at Life Choices Coding Academy. It was built
+                for mobile.
               </p>
             </div>
             <div className="link-size">
               <a
-                href="https://github.com/Ajtheult/Number-Guessing-Game/raw/master/mini_project.exe"
+                href="https://github.com/Ajtheult/Whatsapp_recreation.git"
                 className="waves-effect waves-light btn black move_github_button"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Download link
+                Github
               </a>{" "}
+              <a
+                href="https://serene-sammet-db2a49.netlify.app/"
+                className="waves-effect waves-light btn black"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Netlify
+              </a>
             </div>
           </div>
         </div>

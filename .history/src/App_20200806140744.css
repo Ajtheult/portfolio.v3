@@ -316,15 +316,12 @@ div.admin-bg {
 }
 
 .container_properties {
-  width: 55%;
+  width: 60%;
   margin: 50px auto 0;
   padding: 20px;
   line-height: 55px;
 }
 
-.decrease_container_size {
-  width: 70%;
-}
 .size_of_email {
   font-size: 30px;
   margin-top: 10px;
