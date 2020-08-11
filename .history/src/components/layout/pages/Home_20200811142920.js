@@ -15,11 +15,11 @@ export const Home = () => {
 
   return (
     <div className="colour_of_about_text">
-      <Parallax bgImage={background1} strength={1000}>
+      <Parallax bgImage={background1} strength={400}>
         <div style={{ height: 720 }}>
           <div className="style_for_landingpage">
-            <h1 className="intro_name_top">Asaph Franks</h1>
-            <h4 className="intro_name_bottom">Frontend Developer</h4>
+            <h1 className="intro_name_top right">Asaph Franks</h1>
+            <h4 className="intro_name_bottom center">Frontend Developer</h4>
           </div>
         </div>
       </Parallax>

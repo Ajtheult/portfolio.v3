@@ -69,7 +69,6 @@ export const MyWork = () => {
                 virtuoso pianists working at a music store.
               </p>
             </div>
-            <br />
             <div className="white link-size">
               <a
                 href="https://github.com/Ajtheult/Ling-Ling-40-hours.git"
@@ -90,6 +89,34 @@ export const MyWork = () => {
         <div className="col s12">
           <div className="card">
             <div className="card-image">
+              <img src={Github} alt="img" />
+              <span className=" my_work_title">Github Finder</span>
+            </div>
+            <div className="card-content">
+              <p className="black_text my_work_desc">
+                This is an application to search for someone's github account
+                then display their account details and their work. <br /> It
+                does not function as expected. I am working on debugging the
+                problem.
+              </p>
+            </div>
+            <div className="link-size">
+              <a
+                href="https://github.com/Ajtheult/Github-Finder.git"
+                className="waves-effect waves-light btn black move_github_button"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row decrease_container_size">
+        <div className="col s12">
+          <div className="card">
+            <div className="card-image">
               <img src={Contact} alt=" img" />
               <span className=" my_work_title">Contact Keeper</span>
             </div>
@@ -100,7 +127,6 @@ export const MyWork = () => {
                 each user.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/Contact-Keeper.git"
@@ -128,39 +154,9 @@ export const MyWork = () => {
                 work as well.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/IT-Logger.git"
-                className="waves-effect waves-light btn black move_github_button"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row decrease_container_size">
-        <div className="col s12">
-          <div className="card">
-            <div className="card-image">
-              <img src={Github} alt="img" />
-              <span className=" my_work_title">Github Finder</span>
-            </div>
-            <div className="card-content">
-              <p className="black_text my_work_desc">
-                This is an application to search for someone's github account
-                then display their account details and their work. <br /> It
-                does not function as expected. I am working on debugging the
-                problem.
-              </p>
-            </div>
-            <br />
-            <div className="link-size">
-              <a
-                href="https://github.com/Ajtheult/Github-Finder.git"
                 className="waves-effect waves-light btn black move_github_button"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -185,7 +181,6 @@ export const MyWork = () => {
                 for mobile.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/Whatsapp_recreation.git"
@@ -227,7 +222,6 @@ export const MyWork = () => {
                 that number.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/Number-Guessing-Game/raw/master/mini_project.exe"
@@ -268,7 +262,7 @@ export const MyWork = () => {
             <br />
             <div className="link-size">
               <a
-                href="https://github.com/Ajtheult/Calculator/raw/master/calculator.exes"
+                href="https://github.com/Ajtheult/Calculator/raw/master/calculator.exe"
                 className="waves-effect waves-light btn black move_github_button"
                 rel="noopener noreferrer"
                 target="_blank"

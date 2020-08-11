@@ -7,8 +7,7 @@ body {
   color: white;
 }
 .background_img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
 }
 
 .move_me {

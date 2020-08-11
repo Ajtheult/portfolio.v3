@@ -54,95 +54,37 @@ export const MyWork = () => {
       <h4 id="html" className="work_title">
         HTML5/CSS3
       </h4>
-      <div className="row decrease_container_size">
-        <div className="col s12">
-          <div className="card ">
-            <div className="card-image">
-              <img src={LL} alt="img" />
-              <span className=" my_work_title">
-                Ling Ling 40 hours (Contacts)
-              </span>
-            </div>
-            <div className="card-content ">
-              <p className="black_text my_work_desc">
-                This is a website for a business I created from a meme about
-                virtuoso pianists working at a music store.
-              </p>
-            </div>
-            <br />
-            <div className="white link-size">
-              <a
-                href="https://github.com/Ajtheult/Ling-Ling-40-hours.git"
-                className="waves-effect waves-light btn black move_github_button"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>
-            </div>
+
+      <div className="col s12">
+        <div className="card ">
+          <div className="card-image">
+            <img src={LL} alt="img" />
+            <span className=" my_work_title">
+              Ling Ling 40 hours (Contacts)
+            </span>
+          </div>
+          <div className="card-content ">
+            <p className="black_text my_work_desc">
+              This is a website for a business I created from a meme about
+              virtuoso pianists working at a music store.
+            </p>
+          </div>
+          <div className="white link-size">
+            <a
+              href="https://github.com/Ajtheult/Ling-Ling-40-hours.git"
+              className="waves-effect waves-light btn black move_github_button"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Github
+            </a>
           </div>
         </div>
       </div>
       <h4 id="react" className="work_title">
         React
       </h4>
-      <div className="row decrease_container_size">
-        <div className="col s12">
-          <div className="card">
-            <div className="card-image">
-              <img src={Contact} alt=" img" />
-              <span className=" my_work_title">Contact Keeper</span>
-            </div>
-            <div className="card-content">
-              <p className="black_text my_work_desc">
-                This is an application which allows one to register and log into
-                it. Each user has contacts which can be added and is unique to
-                each user.
-              </p>
-            </div>
-            <br />
-            <div className="link-size">
-              <a
-                href="https://github.com/Ajtheult/Contact-Keeper.git"
-                className="waves-effect waves-light btn black move_github_button"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row decrease_container_size">
-        <div className="col s12">
-          <div className="card">
-            <div className="card-image">
-              <img src={Tech} alt="img" />
-              <span className=" my_work_title">IT Logger</span>
-            </div>
-            <div className="card-content">
-              <p className="black_text my_work_desc">
-                This is an application to manage problems around an IT
-                department. It assign new workers which can then be chosen to do
-                work as well.
-              </p>
-            </div>
-            <br />
-            <div className="link-size">
-              <a
-                href="https://github.com/Ajtheult/IT-Logger.git"
-                className="waves-effect waves-light btn black move_github_button"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row decrease_container_size">
+      <div className="row">
         <div className="col s12">
           <div className="card">
             <div className="card-image">
@@ -157,7 +99,6 @@ export const MyWork = () => {
                 problem.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/Github-Finder.git"
@@ -171,7 +112,61 @@ export const MyWork = () => {
           </div>
         </div>
       </div>
-      <div className="row decrease_container_size">
+      <div className="row">
+        <div className="col s12">
+          <div className="card">
+            <div className="card-image">
+              <img src={Contact} alt=" img" />
+              <span className=" my_work_title">Contact Keeper</span>
+            </div>
+            <div className="card-content">
+              <p className="black_text my_work_desc">
+                This is an application which allows one to register and log into
+                it. Each user has contacts which can be added and is unique to
+                each user.
+              </p>
+            </div>
+            <div className="link-size">
+              <a
+                href="https://github.com/Ajtheult/Contact-Keeper.git"
+                className="waves-effect waves-light btn black move_github_button"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col s12">
+          <div className="card">
+            <div className="card-image">
+              <img src={Tech} alt="img" />
+              <span className=" my_work_title">IT Logger</span>
+            </div>
+            <div className="card-content">
+              <p className="black_text my_work_desc">
+                This is an application to manage problems around an IT
+                department. It assign new workers which can then be chosen to do
+                work as well.
+              </p>
+            </div>
+            <div className="link-size">
+              <a
+                href="https://github.com/Ajtheult/IT-Logger.git"
+                className="waves-effect waves-light btn black move_github_button"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
         <div className="col s12">
           <div className="card">
             <div className="card-image">
@@ -185,7 +180,6 @@ export const MyWork = () => {
                 for mobile.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/Whatsapp_recreation.git"
@@ -210,7 +204,7 @@ export const MyWork = () => {
       <h4 id="python" className="work_title">
         Python
       </h4>
-      <div className="row decrease_container_size">
+      <div className="row">
         <div className="col s12">
           <div className="card">
             <div className="card-image">
@@ -227,7 +221,6 @@ export const MyWork = () => {
                 that number.
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
                 href="https://github.com/Ajtheult/Number-Guessing-Game/raw/master/mini_project.exe"
@@ -249,7 +242,7 @@ export const MyWork = () => {
           </div>
         </div>
       </div>
-      <div className="row decrease_container_size">
+      <div className="row">
         <div className="col s12">
           <div className="card">
             <div className="card-image">
@@ -265,10 +258,9 @@ export const MyWork = () => {
                 module)
               </p>
             </div>
-            <br />
             <div className="link-size">
               <a
-                href="https://github.com/Ajtheult/Calculator/raw/master/calculator.exes"
+                href="https://github.com/Ajtheult/Calculator/raw/master/calculator.exe"
                 className="waves-effect waves-light btn black move_github_button"
                 rel="noopener noreferrer"
                 target="_blank"

@@ -34,13 +34,11 @@ export class Navbar extends Component {
               <div className="background">
                 <img
                   className="background_img"
-                  src="https://images.unsplash.com/photo-1513639231791-f8d3fc39db82?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
+                  src="https://unsplash.com/photos/VcQYMvJPnfs"
                   alt="img"
                 />
               </div>
-              <br />
-              <br />
-              <br />
+
               <br />
             </div>
             {/* Change font so that the name can be better read */}

@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
-
+import me from "./me.jpg";
+import music from "./music.jpg";
 import "../../../App.css";
 import { Link } from "react-router-dom";
 
@@ -32,13 +33,9 @@ export class Navbar extends Component {
           <li>
             <div className="user-view">
               <div className="background">
-                <img
-                  className="background_img"
-                  src="https://images.unsplash.com/photo-1513639231791-f8d3fc39db82?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
-                  alt="img"
-                />
+                <img className="background_img" src={music} alt="img" />
               </div>
-              <br />
+
               <br />
               <br />
               <br />

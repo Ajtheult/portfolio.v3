@@ -38,9 +38,7 @@ export class Navbar extends Component {
                   alt="img"
                 />
               </div>
-              <br />
-              <br />
-              <br />
+
               <br />
             </div>
             {/* Change font so that the name can be better read */}
