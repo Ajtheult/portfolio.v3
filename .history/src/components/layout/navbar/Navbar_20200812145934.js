@@ -42,19 +42,19 @@ export class Navbar extends Component {
           </li>
           <Link to="/portfolio-v3">
             <br />
-            <li className="colour_of_nav changes_colour">Home</li>
+            <li className="colour_of_nav hover">Home</li>
           </Link>{" "}
           <br />
           <Link to="/skills">
-            <li className="colour_of_nav changes_colour">Skills</li>
+            <li className="colour_of_nav">Skills</li>
           </Link>
           <br />
           <Link to="/mywork">
-            <li className="colour_of_nav changes_colour">Work</li>
+            <li className="colour_of_nav">Work</li>
           </Link>
           <br />
           <Link to="/testimonials">
-            <li className="colour_of_nav changes_colour">Testimonials</li>
+            <li className="colour_of_nav">Testimonials</li>
           </Link>
         </ul>
       </div>

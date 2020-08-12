@@ -200,6 +200,7 @@ div.admin-bg {
   color: red;
   font-weight: bold;
   font-size: 25px;
+  border-bottom: 1px solid black;
 }
 
 .style_for_landingpage {

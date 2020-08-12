@@ -200,6 +200,7 @@ div.admin-bg {
   color: red;
   font-weight: bold;
   font-size: 25px;
+  cursor: url("totoro.png");
 }
 
 .style_for_landingpage {

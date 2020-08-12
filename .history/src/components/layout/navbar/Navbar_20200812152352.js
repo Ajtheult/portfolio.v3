@@ -31,7 +31,7 @@ export class Navbar extends Component {
         <ul id="slide-out" className="sidenav sidenav-close">
           <li>
             <div className="user-view">
-              <div className="background">
+              <div>
                 <img className="background_img" src={music} alt="img" />
               </div>
               <br />
