@@ -182,8 +182,9 @@ export const MyWork = () => {
             </div>
             <div className="card-content">
               <p className="black_text my_work_desc">
-                I recreated Whatsapp with the knowledge I have acquired thus far
-                at Life Choices Coding Academy. It was built for mobile.
+                I attempted to recreate Whatsapp with the knowledge I have
+                acquired thus far at Life Choices Coding Academy. It was built
+                for mobile.
               </p>
             </div>
             <br />
@@ -213,14 +214,14 @@ export const MyWork = () => {
         <div className="col s12">
           <div className="card">
             <div className="card-image">
-              <img src={Insta} alt="img" />
+              <img src={Whatsapp} alt="img" />
               <span className=" my_work_title">
                 Instagram profile recreation
               </span>
             </div>
             <div className="card-content">
               <p className="black_text my_work_desc">
-                I created my profile using react. Built for mobile only.
+                I created my profile using react.
               </p>
             </div>
             <br />
