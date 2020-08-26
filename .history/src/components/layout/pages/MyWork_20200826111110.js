@@ -7,7 +7,6 @@ import Tech from "../resources/Tech.png";
 import background3 from "../resources/background3.jpg";
 import Whatsapp from "../resources/Whatsapp.png";
 import Insta from "../resources/insta.jpg";
-import kj from "../resources/kj.png";
 
 export const MyWork = () => {
   return (
@@ -81,42 +80,6 @@ export const MyWork = () => {
                 target="_blank"
               >
                 Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row decrease_container_size">
-        <div className="col s12">
-          <div className="card ">
-            <div className="card-image">
-              <img src={kj} alt="img" />
-              <span className=" my_work_title">King James Challenge Site</span>
-            </div>
-            <div className="card-content ">
-              <p className="black_text my_work_desc">
-                This site is a challenge that was given to us by the company
-                "King James".
-              </p>
-            </div>
-            <br />
-            <div className="white link-size">
-              <a
-                href="https://github.com/Ajtheult/King-James-Site.git"
-                className="waves-effect waves-light btn black move_github_button"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>{" "}
-              <a
-                href="kingjames-site.netlify.app
-                "
-                className="waves-effect waves-light btn black"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Netlify
               </a>
             </div>
           </div>

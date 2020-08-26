@@ -61,35 +61,6 @@ export const MyWork = () => {
         <div className="col s12">
           <div className="card ">
             <div className="card-image">
-              <img src={LL} alt="img" />
-              <span className=" my_work_title">
-                Ling Ling 40 hours (Contacts)
-              </span>
-            </div>
-            <div className="card-content ">
-              <p className="black_text my_work_desc">
-                This is a website for a business I created from a meme about
-                virtuoso pianists working at a music store.
-              </p>
-            </div>
-            <br />
-            <div className="white link-size">
-              <a
-                href="https://github.com/Ajtheult/Ling-Ling-40-hours.git"
-                className="waves-effect waves-light btn black move_github_button"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row decrease_container_size">
-        <div className="col s12">
-          <div className="card ">
-            <div className="card-image">
               <img src={kj} alt="img" />
               <span className=" my_work_title">King James Challenge Site</span>
             </div>
@@ -117,6 +88,35 @@ export const MyWork = () => {
                 target="_blank"
               >
                 Netlify
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row decrease_container_size">
+        <div className="col s12">
+          <div className="card ">
+            <div className="card-image">
+              <img src={LL} alt="img" />
+              <span className=" my_work_title">
+                Ling Ling 40 hours (Contacts)
+              </span>
+            </div>
+            <div className="card-content ">
+              <p className="black_text my_work_desc">
+                This is a website for a business I created from a meme about
+                virtuoso pianists working at a music store.
+              </p>
+            </div>
+            <br />
+            <div className="white link-size">
+              <a
+                href="https://github.com/Ajtheult/Ling-Ling-40-hours.git"
+                className="waves-effect waves-light btn black move_github_button"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
               </a>
             </div>
           </div>
